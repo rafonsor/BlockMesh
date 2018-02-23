@@ -1,0 +1,26 @@
+{
+	"id": "0",
+	"debug": true,
+
+	"key_encoding": "PEM",
+	"private_key": "keys/blockmesh_node_0.key",
+	"ssl_private_key": "keys/blockmesh_node_0_ssl.key",
+	"ssl_certificate": "keys/blockmesh_node_0_ssl.crt",
+	"ca_certificate": "keys/blockmesh_ca.crt",
+
+	"database_dir": "db/",
+
+	"blocks_dir": "blocks/",
+	"blocks_index_file": "blocks/index.blk",
+
+	"nodes": [
+		{"node":"1","host":"123.123.123.123","port":4562},
+		{"node":"2","host":"123.123.123.123","port":4562},
+		{"node":"3","host":"123.123.123.123","port":4562},
+		{"node":"4","host":"123.123.123.123","port":4562},
+		{"node":"5","host":"123.123.123.123","port":4562}
+	],
+	"hostname": "localhost",
+	"network_port": 8946,
+	"server_port": 443
+}
