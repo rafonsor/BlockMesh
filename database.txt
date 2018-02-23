@@ -1,0 +1,70 @@
+Postgresql Database
+• 1 table per resource: hash/item/entity/signature/size(of item)
+  (more detailed tables for IDENTIFICATION/NETWORK/RESOURCE resources if needed)
+• Block table: hash/previousHash/date/workerNode/signature/fileLocation
+• header table: block/id/resource/hash
+• subscription table: resource/start/end/monthlyCap
+• consumption table: resource/date(MMYYYY)/consumption/...
+
+create table identifications (
+	identification char(20) PRIMARY KEY CONSTRAINT invalid_id CHECK (identification ~ '^[A-Z0-9]{20}$')
+);
+
+create table res_identification (
+	hash char(64) PRIMARY KEY CONSTRAINT invalid_hash CHECK (hash ~ '^[a-f0-9]{64}$'),
+	identification char(20) NOT NULL references identifications(identification),
+	common_name varchar(200) NOT NULL UNIQUE,
+	company varchar(200) NOT NULL,
+	certificate varchar(200) NOT NULL,
+	entry_type varchar(20) NOT NULL,
+	date date NOT NULL,
+	version smallint NOT NULL,
+	status varchar(10) NOT NULL
+);
+
+create table resources (
+	resource varchar(100) primary key
+);
+
+create table res_resource (
+	hash char(64) PRIMARY KEY,
+	resource varchar(100) NOT NULL references resources(resource),
+	description text NOT NULL,
+	accessibility varchar(10) NOT NULL,
+	authority char(20) NOT NULL references identifications(identification),
+	public_key varchar(500) NOT NULL CONSTRAINT invalid_key CHECK (public_key ~ '^[a-f0-9]$'),
+	entry_type varchar(20) NOT NULL,
+	date date NOT NULL,
+	version smallint NOT NULL,
+	status varchar(10) NOT NULL
+);
+
+create table blocks (
+	block char(64) PRIMARY KEY,
+	previous_block char(64) NOT NULL UNIQUE,
+	date integer NOT NULL CONSTRAINT invalid_date CHECK (date > 1450000000),
+	worker char(1) NOT NULL CONSTRAINT invalid_worker CHECK (worker ~ '^[0-9]$'),
+	signature varchar(500) NOT NULL UNIQUE CONSTRAINT invalid_signature CHECK (signature ~ '^[a-zA-Z0-9+=/]+$'),
+	location varchar(250) NOT NULL UNIQUE
+	CONSTRAINT invalid_hash CHECK (block ~ '^[a-f0-9]{64}$' and previous_block ~ '^[a-f0-9]{64}$')
+);
+
+create table headers (
+	id serial,
+	block char(64) NOT NULL references blocks(block),
+	resource varchar(100) NOT NULL references resources(resource),
+	hash char(64) NOT NULL CONSTRAINT invalid_hash CHECK (hash ~ '^[a-f0-9]{64}$')
+);
+
+create table subscriptions (
+	resource varchar(100) references resources(resource),
+	starts date NOT NULL,
+	ends date NOT NULL,
+	monthly_cap bigint NOT NULL
+);
+
+create table consumptions (
+	resource varchar(100) references resources(resource),
+	month char(6) NOT NULL default concat(extract(year from now()), lpad(concat(extract(month from now())), 2, '0')) CONSTRAINT invalid_date CHECK (month ~ '^2[0-9]{3}(1[0-2]|0[1-9])$'),
+	consumption bigint NOT NULL default 0
+);
