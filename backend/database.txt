@@ -1,10 +1,10 @@
 Postgresql Database
-• 1 table per resource: hash/item/entity/signature/size(of item)
+â€¢ 1 table per resource: hash/item/entity/signature/size(of item)
   (more detailed tables for IDENTIFICATION/NETWORK/RESOURCE resources if needed)
-• Block table: hash/previousHash/date/workerNode/signature/fileLocation
-• header table: block/id/resource/hash
-• subscription table: resource/start/end/monthlyCap
-• consumption table: resource/date(MMYYYY)/consumption/...
+â€¢ Block table: hash/previousHash/date/workerNode/signature/fileLocation
+â€¢ header table: block/id/resource/hash
+â€¢ subscription table: resource/start/end/monthlyCap
+â€¢ consumption table: resource/date(MMYYYY)/consumption/...
 
 create table identifications (
 	identification char(20) PRIMARY KEY CONSTRAINT invalid_id CHECK (identification ~ '^[A-Z0-9]{20}$')
