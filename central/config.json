@@ -1,0 +1,11 @@
+{
+	"rpc_port": 25000,
+
+	"db_host": "127.0.0.1",
+	"db_port": 5432,
+	"db_name": "blockmesh",
+	"db_user": "postgres",
+	"db_password": "password",
+
+	"blocks_dir": "blocks/"
+}

@@ -1,0 +1,4 @@
+Workers' Subscriber
+Receives new blocks through RPC,
+verifies and authenticates data,
+registers block into database

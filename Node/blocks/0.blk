@@ -1,0 +1,310 @@
+{
+	"blockHash"			:	"aa1287ce600851c5f9c3cd55363af7919230f66abbf3c112b0c14b8af50652a8",
+	"previousBlockHash"	:	"0000000000000000000000000000000000000000000000000000000000000000",
+
+	"date"			:	1451606400,
+	"workerNode"			:	0,
+	"signature"				:	"MIGIAkIAxa5I/HX1v91dRSRdYGyKj+CtHt6fIXuo6oEHhsUSHiN0IeQ/HeLsgftT0QOeSLlJrJiXr2Nr+Pkwu40eSoow0LoCQgGQCu5FumtKyLpBaOdGz+Yi8YQfckdepI7CMk7Za11pNoCsNmm0o5bRz08lBTdwR6jwWNrO+C3obgFK/Lh/A2MoSQ==",
+
+	"header"				:	{
+							"IDENTIFICATION":	["be7336c2d3959231d4da5f2e7f7b6f109babaf923f4d695cb6b7827c02f4d6bb","f980e79f6ac6d01e34a341f74fc088aa9e72b02ebee6a9fef39039390c1057be","f1c5a4bad72e895115684773ce834ed29a8f223941ea8d0823ec1bf61c759f9a","3b820e5ba3f658b62b82c46f1e12ab4efa40f204f5f466b796c7b10bfc19ab0c","cba14314c2a92038a6463246a56d8f2e48afb8393209ade84c4e9abad5301120","3173723b8cd28d44ce9f8675ee087c7878b5b4579633b77732f241e6a18916b3","5f10c1b1572f18e9a8485e57efb9e49e381321b6bb5707883ee254eb932b0711"],
+							"NETWORK"		:	["c437e86ab7201b8d4e5b3bfb316e0b602a93cf581f9701721a498f2757be921c","851792560154753fde0315eeae9e6faae4e93431bf4b153dff2d064a989278fd","b5baa099cc8663c84d0dbc3e226da3d0c4389200ed659be47ea94a1439b40171","6856b78e0b68f918bff89f4987315a4d6b07838425f972ac5de72f6494f22eee","0bddbd5024f5b79383474026d9def0de1598f7c37231157821b431ed292450c1","ddf083c706780b074b62124e9f05f4c5e066e2ed7f9323130dbac174c50f383f"],
+							"RESOURCES"		:	["eea1933c2e36cb5d27fc033c9ced89affdf0404bbb20e0ec78112825a0e9b5d0","15d4319965f0ed04eb860bd94752104c7874ce8d78f8623c6441e76ad03164a4","ed7a0ee29f6701b22e216ddbe312d15db79e30e24a5123e0961ed3e2f0f540b2"]
+						},
+
+	"data"			:	{
+							#resource: identification -  network controller
+							"be7336c2d3959231d4da5f2e7f7b6f109babaf923f4d695cb6b7827c02f4d6bb"			:	{
+										"data"		:	{
+													"identification"	:	"BLOCKMESHCONTROLLER0",
+													"commonName"		:	"BlockMesh Network Controller 0",
+													"company"			:	"BlockMesh",
+													"certificate"		:	"https://certs.blockmesh.info/c0",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",																
+																"version"			:	1
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	"MIGIAkIBCXg0yynDFjCqjbxnTJG/TyozouGLQU8UYFTo5kdzewGwU523ePPud/RmwMBGNeY9x5Pu98h4B8guovBSE3TG4z8CQgHCfrUxT4D/1pK0BQBAovNaDnxedb4W4kk6aRZhGNX5PKC8gZsGuPogHSnTMJfdZgrL73a2ED9NAhkfHvqb8C6F+A=="
+									},
+
+							#resource: resources -  resources
+							"eea1933c2e36cb5d27fc033c9ced89affdf0404bbb20e0ec78112825a0e9b5d0"			:	{
+										"data"		:	{
+													"designation"		:	"RESOURCES",
+													"description"		:	"accepted resources types",
+													"accessibility"		:	"public",
+													"authority"			:	"BLOCKMESHCONTROLLER0",
+													"publicKey"			:	"30819b301006072a8648ce3d020106052b81040023038186000400f78ac11e65650a1cd3875a13c61320b9e534768d0fc832a6f7fe5be7b3d4d7aeaec3969e15c5f33552d3e572f1113c6cb3a5e61dbe1b8f81b27217f24f675a40a301e1880357ba2480cc9c079ad567d088116549e3a5f10a29f5cae414ef8dbe96adf131be5d7772fb81f3108551f90e92adfcb73ed3780d7595941566db4140b4aedf",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1,
+																"status"			:	"active"
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	"MIGIAkIBOSGk801c9+5TBys9g5FwGbKcCMWKsVpHN9m/edjhBG80waBZlbt/DG1iOzZhSPdsp5obilZwMczI4q7pPh9O/Y8CQgFkHy9rRIr3cTkXcgttQCbTfeZTUeqaWUuuD81UPM1DiURyC9f74nxfXsWTNphTcn51GP7hQnLSLd70piq8h3oBLQ=="
+									},
+
+							#resource: resources -  identification
+							"15d4319965f0ed04eb860bd94752104c7874ce8d78f8623c6441e76ad03164a4"			:	{
+										"data"		:	{
+													"designation"		:	"IDENTIFICATION",
+													"description"		:	"identification of aproved entities",
+													"accessibility"		:	"public",
+													"authority"			:	"BLOCKMESHCONTROLLER0",
+													"publicKey"			:	"30819b301006072a8648ce3d020106052b81040023038186000400f78ac11e65650a1cd3875a13c61320b9e534768d0fc832a6f7fe5be7b3d4d7aeaec3969e15c5f33552d3e572f1113c6cb3a5e61dbe1b8f81b27217f24f675a40a301e1880357ba2480cc9c079ad567d088116549e3a5f10a29f5cae414ef8dbe96adf131be5d7772fb81f3108551f90e92adfcb73ed3780d7595941566db4140b4aedf",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1,
+																"status"			:	"active"
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	"MIGIAkIBp/UKWcmLK2GRajaMl9d349AhgUxD31gIyUpRd31h+7kQZV2xidxyPfCEuE6kYtJl8Obnshm+WxcOexqXOjz3yGcCQgCt/uekZyA3LLOwi9hVYHn1ypEdxdROHskCN1u0DETRSAaK3YGT+zPWBam86YQebXTZARb2t7U9RXKH4Liw84hTLQ=="
+									},
+
+							#resource: resources -  network
+							"ed7a0ee29f6701b22e216ddbe312d15db79e30e24a5123e0961ed3e2f0f540b2"			:	{
+										"data"		:	{
+													"designation"		:	"NETWORK",
+													"description"		:	"management of blockmesh network",
+													"accessibility"		:	"both",
+													"authority"			:	"BLOCKMESHCONTROLLER0",
+													"publicKey"			:	"30819b301006072a8648ce3d020106052b81040023038186000400f78ac11e65650a1cd3875a13c61320b9e534768d0fc832a6f7fe5be7b3d4d7aeaec3969e15c5f33552d3e572f1113c6cb3a5e61dbe1b8f81b27217f24f675a40a301e1880357ba2480cc9c079ad567d088116549e3a5f10a29f5cae414ef8dbe96adf131be5d7772fb81f3108551f90e92adfcb73ed3780d7595941566db4140b4aedf",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1,
+																"status"			:	"active"
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	"MIGHAkIAkzxYrPpbbJnSivpp+ArBou5Uhm0H9jC51iRKVBaoaaeO6vQUPoNwTrffCCVvKExVlmjdq6sCTMHjtijCqPeq+VMCQUapOhkQN+Y3VnEKE4C1QxwO5qnAeCiFqXG8Oq82FIYNekKIQCfDudqrLzwSUg8HfBZo6des+P5tgFRNCR99dlDd"
+									},
+
+####################################################################################################################################################################################################################################################
+
+							#resource: identification -  worker node 0
+							"f980e79f6ac6d01e34a341f74fc088aa9e72b02ebee6a9fef39039390c1057be"			:	{
+										"data"		:	{
+													"identification"	:	"BLOCKMESHWORKERNODE0",
+													"commonName"		:	"BlockMesh Network Worker 0",
+													"company"			:	"BlockMesh",
+													"certificate"		:	"https://certs.blockmesh.info/w0",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	"MIGGAkFhOM3DxC0sXCWtaNIlxqqcvGOJ8C63K4x2x/9GAcTEcCpV4IOacC1KY2LAL8AksLltnHAOD6PW4EOX1SRuS8IHFAJBbIDmr1ANNc1/s5ggeMxYHZXVRhxuesazvuSsMxT374EREXBWjqIgUXHV/CHPzn2DWZf7ejxzaONoj99xjyWIEKY="
+									},
+
+							#resource: identification -  worker node 1
+							"f1c5a4bad72e895115684773ce834ed29a8f223941ea8d0823ec1bf61c759f9a"			:	{
+										"data"		:	{
+													"identification"	:	"BLOCKMESHWORKERNODE1",
+													"commonName"		:	"BlockMesh Network Worker 1",
+													"company"			:	"BlockMesh",
+													"certificate"		:	"https://certs.blockmesh.info/w1",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	"MIGIAkIBVnR9IR+1LjEs+EejmCKHR/xbsvkA4NaM6iBNdkkYRPmOGEQwKE8NxtltV5hEW8JqsYSkk2OudMnBKvXK14oiACsCQgCwZB7YZ3ZW5Vy8v+6VK/S6UjR8yzaRgGCBWlGKmkdCoayUYnzP2cVYoHjjGkYj2fgS40sIxT067Ql22DIigfKByw=="
+									},
+
+							#resource: identification -  worker node 2
+							"3b820e5ba3f658b62b82c46f1e12ab4efa40f204f5f466b796c7b10bfc19ab0c"			:	{
+										"data"		:	{
+													"identification"	:	"BLOCKMESHWORKERNODE2",
+													"commonName"		:	"BlockMesh Network Worker 2",
+													"company"			:	"BlockMesh",
+													"certificate"		:	"https://certs.blockmesh.info/w2",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	"MIGIAkIBZbN0s+3cOHk6KCLOX+HPYT4Hww8Wr6f+V3ZewdduuMVNQMHYqsoaDI0BVIyXZOi7QdckR0Wqa6wEGBLvaeepb28CQgHZO0rreTzcLmkuh59DY+RuFVk6MiOLzYsfxltsTfENRPAgUXSbsHv3qXzQF6RIuyMFrlhmbLiKW72rRvgjhC/5JA=="
+									},
+
+							#resource: identification -  worker node 3
+							"cba14314c2a92038a6463246a56d8f2e48afb8393209ade84c4e9abad5301120"			:	{
+										"data"		:	{
+													"identification"	:	"BLOCKMESHWORKERNODE3",
+													"commonName"		:	"BlockMesh Network Worker 3",
+													"company"			:	"BlockMesh",
+													"certificate"		:	"https://certs.blockmesh.info/w3",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	"MIGIAkIBQUzX7FQye/7jBZ1JTFgFKX6r16nnFYwaVcoyDxKKGxqupGbsxOONhWZZdAt89JP7CRVrnmzG+eVIPrztsquAjXoCQgCk5yAdWUpBQNZpDff4bTQ2KP7Fh2/KWGMxtmQWdlPkxvAiKSHLc+1shZw0Pq7L9jEtAPlzy++6k9HeVfQOZNmHPw=="
+									},
+
+							#resource: identification -  worker node 4
+							"3173723b8cd28d44ce9f8675ee087c7878b5b4579633b77732f241e6a18916b3"			:	{
+										"data"		:	{
+													"identification"	:	"BLOCKMESHWORKERNODE4",
+													"commonName"		:	"BlockMesh Network Worker 4",
+													"company"			:	"BlockMesh",
+													"certificate"		:	"https://certs.blockmesh.info/w4",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	"MIGIAkIB/zOHViiQtzvHe5nwasIYo3LtRBH+X3jaUKtcsnrn73D8YFKEi2I+BcjsVBo8wgVV3Fmri8pHPrqyMOKLP617QrkCQgD1KJC1O4rUhWQ0nMmdCCYJpOkXgsTZPP/CI5/C3IQxJcxpYHT4p3fklyFeVYxZGLZElBlHxWEu4KM+tAx9zUUFYQ=="
+									},
+
+							#resource: identification -  worker node 5
+							"5f10c1b1572f18e9a8485e57efb9e49e381321b6bb5707883ee254eb932b0711"			:	{
+										"data"		:	{
+													"identification"	:	"BLOCKMESHWORKERNODE5",
+													"commonName"		:	"BlockMesh Network Worker 5",
+													"company"			:	"BlockMesh",
+													"certificate"		:	"https://certs.blockmesh.info/w5",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	"MIGIAkIBjnoFynQKce5ONUeKtvl/u/R1xlJPBv+dfF2iIw5VZiedG8DrtDmnmswY26ozGC/mmAaLNhvTgIuOhs+79FCstAACQgG+ijEXQsnFqfXTcXyPuvi7N992nYvZZ0raSwb9db+DG1BdK22XIfVGsFdW8U76A9sY/U36uU8L29sJn+XOUuwp1A=="
+									},
+
+####################################################################################################################################################################################################################################################
+
+							#resource: network -  worker node 0
+							"c437e86ab7201b8d4e5b3bfb316e0b602a93cf581f9701721a498f2757be921c"			:	{
+										"data"		:	{
+													"role"				:	"worker",
+													"id"				:	0,
+													"url"				:	"https://w0.blockmesh.info",
+													"identification"	:	"BLOCKMESHWORKERNODE0",
+													"publicKey"			:	"30819b301006072a8648ce3d020106052b810400230381860004013fe32b0718534a3b2446912bdf0f0e60fa32035679f0e9ec628097ed969a99bbf4bf071bec9a113e0154d23c8c7f26b6034c5426350c3e6610cd838bdd800ec9ca006b2fe794360adb40c0a8fe985329a4a61a1549685b4f86c842728a9353fe12986fe48ccf0189057e48e40dc9ff1d3b2de6200ba933827dc963b322e5c28b03cca3",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1,
+																"status"			:	"active"
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	"MIGHAkIAlr9lXvUWV5+z4D/WOuiBJXdcZQK/0XvATUyo4Bqdkb/24gK6flN6WTTGxfpRVrbUe2hWJaJljO+vFjfd/pHAzbcCQVGdUfddi/TZMS49r0s6O5Q0qlu7B1fq8ID1xoM0r64SFrUKCeaNwLNjJ+1XbOKXvtU4BK5Kcedppu0KmKOXzZIh"
+									},
+									
+							#resource: network -  worker node 1
+							"851792560154753fde0315eeae9e6faae4e93431bf4b153dff2d064a989278fd"			:	{
+										"data"		:	{
+													"role"				:	"worker",
+													"id"				:	1,
+													"url"				:	"https://w1.blockmesh.info",
+													"identification"	:	"BLOCKMESHWORKERNODE1",
+													"publicKey"			:	"30819b301006072a8648ce3d020106052b81040023038186000401d5acf2c6d785f1b1dea92626bcdae395a0cefa4b0f14970a0803b4471b708f74eb18648946b76f321662b8e6dabf38f70dd74bf82e6f37e35f6b18adb8c763e936001f2def5df674e8b22b8322b4965285fb20cd3b65d92ebfe22691914a137138b826a3b37a6866cc4d9ec8d25d4cd9d48f005964aaa962009872466f2812bb2a2f55",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1,
+																"status"			:	"active"
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	"MIGHAkE8Nn8m573hmyCWC8NapJCezvXf/7RygVDI18d5v5xFMRG2owkOd4gNRCqkks1WpeFv+EDt0m7oZ4D0XxRheemo+wJCAWIZsnlFvcbxsW9Zf2U6WW/17JiybcK39Kl0erW2ljHj1dKZYHgxW9Qo0opVFhJAenM55CoQhbWzR6F9dqVB3IX5"
+									},
+									
+							#resource: network -  worker node 2
+							"b5baa099cc8663c84d0dbc3e226da3d0c4389200ed659be47ea94a1439b40171"			:	{
+										"data"		:	{
+													"role"				:	"worker",
+													"id"				:	2,
+													"url"				:	"https://w2.blockmesh.info",
+													"identification"	:	"BLOCKMESHWORKERNODE2",
+													"publicKey"			:	"30819b301006072a8648ce3d020106052b81040023038186000400b21bcc3dcf5218d1e2b09694d866ac1aa183e4d14eec80f1200640ab18b1b357065ffab84fffe5c2835a4cc117a2fffc2bbf48f8ba3eb0b4e8b1e9a65956a9512501b3bfcbb7d289d2a05d4d4ab80a3c2f9a9512b48862a2838dba32928c6eaff802f59edeacd0ac3f63c79fa9fc64e8c3ad9b7dabda34cc587a5731515579113dac84",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1,
+																"status"			:	"active"
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	"MIGIAkIBFXcs5jz/OCWetue3A8fBUx/L+XqiupG8CxAnugBDIADqYFwRhZKV4U/9UuqWHRYl/iNpIzUuoikiK7Ond8KB7ZoCQgFjfh3gFPCFZ6SViZdwOkMWnDzsdubVVrwNZr3VnaWWOK2ejSCKrnAZhSJia0oEaXwVC3rtpFPvOG1xYVxu2VnQwQ=="
+									},
+									
+							#resource: network -  worker node 3
+							"6856b78e0b68f918bff89f4987315a4d6b07838425f972ac5de72f6494f22eee"			:	{
+										"data"		:	{
+													"role"				:	"worker",
+													"id"				:	3,
+													"url"				:	"https://w3.blockmesh.info",
+													"identification"	:	"BLOCKMESHWORKERNODE3",
+													"publicKey"			:	"30819b301006072a8648ce3d020106052b8104002303818600040120ee2f175d0db22293f6266240eaa5b895d14298294381c21c110252feb0ca4abf936e51acb58829b6de5a0e5e68d5b7230fa9ca4240ba2273c13f5c3e4d60b1f700f1978d323bacd304d3718c80732199ded66784a15e7ab986d97fcacb0a5c6f22ed56fef9813e1428b0f5b9692d62e3a286e5f1d5e608401cc61c371ab179c79980",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1,
+																"status"			:	"active"
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	"MIGHAkIAlx9rSXsxAXklwZ/13YuY4qK57azw0XuYtVUL5CQtsGF+jG5CZGPVzM35I3bOoP4OrZKWwc+uToiuV2MUDLa+kYMCQSuxVq4f9E3g+YH8l+rcwFWLUAvsucjjoLnhHCNrwOprzJetDlB35LZc0sA2kM9uQEWJcKfGZh0+ieylEhNfHEpY"
+									},
+									
+							#resource: network -  worker node 4
+							"0bddbd5024f5b79383474026d9def0de1598f7c37231157821b431ed292450c1"			:	{
+										"data"		:	{
+													"role"				:	"worker",
+													"id"				:	4,
+													"url"				:	"https://w4.blockmesh.info",
+													"identification"	:	"BLOCKMESHWORKERNODE4",
+													"publicKey"			:	"30819b301006072a8648ce3d020106052b81040023038186000400382ccc392b9cbf6b31868f5ac27c74cd11cf0bd2eb6cec81dfae65a2fb11f8595ea03e144da65f7c2e391fc46c67eb16c6387367fddfaf68bc8f05bc01d44cb9c500380a76689cb81141d34beae2bdbbcb43995b71e82ca1cae8b488e324dd49d1e6edb8fbd10669ea9ddae6792322bad33a7a8c05b4d4e0d2e6316756d1673804ee78",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1,
+																"status"			:	"active"
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	"MIGGAkFBKkp5f839UzsXA7Dws+uz9sMbUDlmu7g9gv1Fvd3Ic6e7imu7dWuW/iy2kxMVCwcAvA89SNSUBLoDdTUBsja7gwJBLF0uHCSavyELl4UeMmosD9wOaLNbzwojFnAv3ZeEDqddcxi8JLrtqZSOEAsPAw6AYnXJfBlLT3iBk+WLFAUDWGg="
+									},
+									
+							#resource: network -  worker node 5
+							"ddf083c706780b074b62124e9f05f4c5e066e2ed7f9323130dbac174c50f383f"			:	{
+										"data"		:	{
+													"role"				:	"worker",
+													"id"				:	5,
+													"url"				:	"https://w5.blockmesh.info",
+													"identification"	:	"BLOCKMESHWORKERNODE5",
+													"publicKey"			:	"30819b301006072a8648ce3d020106052b81040023038186000401d2a720b191ee114cf826fbffa19ed8e916fa395b2d03c654e17c5f99df768cc8146635b4a6103b027429b954e892ec727fafc4e7e336c2d6d4fdb73bc654a1f07801c26d89bae0e21b6c64100a06ceb9fc3546a6afd48e02a21a022c70b03749f58b96e8b49c9c4271185a970d4d5ac4aa17b7cb17a51470ea57b46c95c23450942e72",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1,
+																"status"			:	"active"
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	"MIGIAkIAn7ckRAsQ6TCGiyPebWW3J+fwZFmGYWwsKyRcY9j6t6z6+/eoB+uHnxkJPYlzfE3QKBtG6+6o0VrCOZ/RxXKAC3QCQgDMJCIfFeBuxhD0OyO/25Bn2QR2+SYPW5aTxPcPKzPew7aTdpeR1iXyZH5v/fUIBgyliZd8hShsgmwPPDlD/4HFRA=="
+									}
+						}
+}
