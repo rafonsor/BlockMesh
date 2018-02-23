@@ -1,0 +1,61 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 4101 (0x1005)
+    Signature Algorithm: ecdsa-with-SHA256
+        Issuer: C=BE, ST=Brussels-Capital Region, O=BlockMesh, CN=BlockMesh CA
+        Validity
+            Not Before: Feb 12 06:47:02 2016 GMT
+            Not After : Feb 10 06:47:02 2021 GMT
+        Subject: C=BE, ST=Brussels-Capital Region, O=BlockMesh, OU=BlockMesh Network, CN=BlockMesh Network Worker 4
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (521 bit)
+                pub: 
+                    04:00:38:2c:cc:39:2b:9c:bf:6b:31:86:8f:5a:c2:
+                    7c:74:cd:11:cf:0b:d2:eb:6c:ec:81:df:ae:65:a2:
+                    fb:11:f8:59:5e:a0:3e:14:4d:a6:5f:7c:2e:39:1f:
+                    c4:6c:67:eb:16:c6:38:73:67:fd:df:af:68:bc:8f:
+                    05:bc:01:d4:4c:b9:c5:00:38:0a:76:68:9c:b8:11:
+                    41:d3:4b:ea:e2:bd:bb:cb:43:99:5b:71:e8:2c:a1:
+                    ca:e8:b4:88:e3:24:dd:49:d1:e6:ed:b8:fb:d1:06:
+                    69:ea:9d:da:e6:79:23:22:ba:d3:3a:7a:8c:05:b4:
+                    d4:e0:d2:e6:31:67:56:d1:67:38:04:ee:78
+                ASN1 OID: secp521r1
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                OpenSSL Generated Certificate
+            X509v3 Subject Key Identifier: 
+                6F:B6:DF:99:2B:49:0E:1A:D1:55:FB:FE:66:68:7F:BF:76:CE:D4:12
+            X509v3 Authority Key Identifier: 
+                keyid:5D:BD:01:7C:2F:2F:FA:D1:6C:C4:C0:B9:BC:FF:E0:83:15:75:29:B4
+
+    Signature Algorithm: ecdsa-with-SHA256
+         30:81:88:02:42:01:d0:38:2d:26:fe:38:1e:82:87:a4:1f:8c:
+         b5:54:f8:f9:8e:48:60:7b:95:10:c5:ad:71:69:19:47:30:0f:
+         fd:22:85:e7:1e:2e:a1:94:6b:c3:59:0a:bb:95:12:35:ec:fe:
+         13:57:69:95:c3:70:c3:b1:7c:c3:d2:76:0c:b3:63:8d:26:02:
+         42:01:66:2f:6c:56:5e:b8:d0:c6:80:45:32:53:ef:23:2d:d1:
+         0a:73:cb:d3:49:1d:c3:09:ca:c5:c2:e2:eb:b8:4c:89:43:1d:
+         4e:87:97:c7:24:c5:d6:40:af:5a:64:15:69:df:03:41:58:07:
+         f8:9d:a0:23:62:d1:b3:68:c5:6c:3d:87:63
+-----BEGIN CERTIFICATE-----
+MIIC0jCCAjOgAwIBAgICEAUwCgYIKoZIzj0EAwIwWjELMAkGA1UEBhMCQkUxIDAe
+BgNVBAgMF0JydXNzZWxzLUNhcGl0YWwgUmVnaW9uMRIwEAYDVQQKDAlCbG9ja01l
+c2gxFTATBgNVBAMMDEJsb2NrTWVzaCBDQTAeFw0xNjAyMTIwNjQ3MDJaFw0yMTAy
+MTAwNjQ3MDJaMIGEMQswCQYDVQQGEwJCRTEgMB4GA1UECAwXQnJ1c3NlbHMtQ2Fw
+aXRhbCBSZWdpb24xEjAQBgNVBAoMCUJsb2NrTWVzaDEaMBgGA1UECwwRQmxvY2tN
+ZXNoIE5ldHdvcmsxIzAhBgNVBAMMGkJsb2NrTWVzaCBOZXR3b3JrIFdvcmtlciA0
+MIGbMBAGByqGSM49AgEGBSuBBAAjA4GGAAQAOCzMOSucv2sxho9awnx0zRHPC9Lr
+bOyB365lovsR+FleoD4UTaZffC45H8RsZ+sWxjhzZ/3fr2i8jwW8AdRMucUAOAp2
+aJy4EUHTS+rivbvLQ5lbcegsocrotIjjJN1J0ebtuPvRBmnqndrmeSMiutM6eowF
+tNTg0uYxZ1bRZzgE7nijezB5MAkGA1UdEwQCMAAwLAYJYIZIAYb4QgENBB8WHU9w
+ZW5TU0wgR2VuZXJhdGVkIENlcnRpZmljYXRlMB0GA1UdDgQWBBRvtt+ZK0kOGtFV
++/5maH+/ds7UEjAfBgNVHSMEGDAWgBRdvQF8Ly/60WzEwLm8/+CDFXUptDAKBggq
+hkjOPQQDAgOBjAAwgYgCQgHQOC0m/jgegoekH4y1VPj5jkhge5UQxa1xaRlHMA/9
+IoXnHi6hlGvDWQq7lRI17P4TV2mVw3DDsXzD0nYMs2ONJgJCAWYvbFZeuNDGgEUy
+U+8jLdEKc8vTSR3DCcrFwuLruEyJQx1Oh5fHJMXWQK9aZBVp3wNBWAf4naAjYtGz
+aMVsPYdj
+-----END CERTIFICATE-----

@@ -1,0 +1,310 @@
+{
+	"blockHash"			:	"",
+	"previousBlockHash"	:	"0000000000000000000000000000000000000000000000000000000000000000",
+
+	"date"			:	1234567890,
+	"workerNode"			:	0,
+	"signature"				:	"",
+
+	"header"				:	{
+							"IDENTIFICATION":	["be7336c2d3959231d4da5f2e7f7b6f109babaf923f4d695cb6b7827c02f4d6bb","f980e79f6ac6d01e34a341f74fc088aa9e72b02ebee6a9fef39039390c1057be"],
+							"NETWORK"		:	["469402432173bb22428167c0eeb14040877aa576153406485f122a702d284d92"],
+							"RESOURCES"		:	["eea1933c2e36cb5d27fc033c9ced89affdf0404bbb20e0ec78112825a0e9b5d0","15d4319965f0ed04eb860bd94752104c7874ce8d78f8623c6441e76ad03164a4","ed7a0ee29f6701b22e216ddbe312d15db79e30e24a5123e0961ed3e2f0f540b2"]
+						},
+
+	"data"			:	{
+							#resource: identification -  network controller
+							"be7336c2d3959231d4da5f2e7f7b6f109babaf923f4d695cb6b7827c02f4d6bb"			:	{
+										"data"		:	{
+													"identification"	:	"BLOCKMESHCONTROLLER0",
+													"commonName"		:	"BlockMesh Network Controller 0",
+													"company"			:	"BlockMesh",
+													"certificate"		:	"https://certs.blockmesh.info/c0",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",																
+																"version"			:	1
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	"MIGHAkIBj27wofjcS581odw4F48Zsh53V1DmqkQZzJeyi3Lr12bznsKFX5qphAJEL+v33xbvit2iz0n6c6V41FkX/6BPXBsCQVwuaLVRpEQmegruhbzVKg3yMjxhvwWdEN55dAMv2XBnKjI0rVv3CHPDJO5wNlqFHhzez7ZoWkwleNGP90q5rZ0Y"
+									},
+
+							#resource: resources -  resources
+							"eea1933c2e36cb5d27fc033c9ced89affdf0404bbb20e0ec78112825a0e9b5d0"			:	{
+										"data"		:	{
+													"designation"		:	"RESOURCES",
+													"description"		:	"accepted resources types",
+													"accessibility"		:	"public",
+													"authority"			:	"BLOCKMESHCONTROLLER0",
+													"publicKey"			:	"30819b301006072a8648ce3d020106052b81040023038186000400f78ac11e65650a1cd3875a13c61320b9e534768d0fc832a6f7fe5be7b3d4d7aeaec3969e15c5f33552d3e572f1113c6cb3a5e61dbe1b8f81b27217f24f675a40a301e1880357ba2480cc9c079ad567d088116549e3a5f10a29f5cae414ef8dbe96adf131be5d7772fb81f3108551f90e92adfcb73ed3780d7595941566db4140b4aedf",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1,
+																"status"			:	"active"
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	"MIGIAkIBh90nw+htueJHbBjZd0pQArBYSUfn1usf5UMFzYEMaCNBvxv+xp9wmi3KlE/oHioIzDYq+uZEiSOOvzFlV/NMMd8CQgFgISZUFF5p28TBugaN6t2n6zWEX5BitTiiNbuA5o5iTe9SaaWW/3UmwI2gEaJlYrRsHdUpp/jVfnS51D5ROiWkAg=="
+									},
+
+							#resource: resources -  identification
+							"15d4319965f0ed04eb860bd94752104c7874ce8d78f8623c6441e76ad03164a4"			:	{
+										"data"		:	{
+													"designation"		:	"IDENTIFICATION",
+													"description"		:	"identification of aproved entities",
+													"accessibility"		:	"public",
+													"authority"			:	"BLOCKMESHCONTROLLER0",
+													"publicKey"			:	"30819b301006072a8648ce3d020106052b81040023038186000400f78ac11e65650a1cd3875a13c61320b9e534768d0fc832a6f7fe5be7b3d4d7aeaec3969e15c5f33552d3e572f1113c6cb3a5e61dbe1b8f81b27217f24f675a40a301e1880357ba2480cc9c079ad567d088116549e3a5f10a29f5cae414ef8dbe96adf131be5d7772fb81f3108551f90e92adfcb73ed3780d7595941566db4140b4aedf",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1,
+																"status"			:	"active"
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	"MIGHAkIBUK1epzXXhryHo5O+3IOdrQTkEE8iE2KBLIB0ekw71VavcBV67Ei/DjeM3AQ0Z28gaesgmwwqJAmHdORV0VOhDuwCQUaoP7MFUuVjmfjFzHeDxCMHtLDSdcsmOzLDl2dIpmhQ/Q0w8J4j6fiDasgMm2KVfuZ5pP6gLdbpl+4Zfhx30VXA"
+									},
+
+							#resource: resources -  network
+							"ed7a0ee29f6701b22e216ddbe312d15db79e30e24a5123e0961ed3e2f0f540b2"			:	{
+										"data"		:	{
+													"designation"		:	"NETWORK",
+													"description"		:	"management of blockmesh network",
+													"accessibility"		:	"both",
+													"authority"			:	"BLOCKMESHCONTROLLER0",
+													"publicKey"			:	"30819b301006072a8648ce3d020106052b81040023038186000400f78ac11e65650a1cd3875a13c61320b9e534768d0fc832a6f7fe5be7b3d4d7aeaec3969e15c5f33552d3e572f1113c6cb3a5e61dbe1b8f81b27217f24f675a40a301e1880357ba2480cc9c079ad567d088116549e3a5f10a29f5cae414ef8dbe96adf131be5d7772fb81f3108551f90e92adfcb73ed3780d7595941566db4140b4aedf",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1,
+																"status"			:	"active"
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	"MIGIAkIBwJxlsWLHQaY8h8PhjpC9LPdNotSfD8AcvBpzoIkMCNNc81CUt4qdxcRH6ohENWwofAOsBkSibgs8dpWna964O+ECQgE1Osv4eeEHKLNYa6n+etccA4ntQ+Nd/MDQc8Y18qapvZiAxgLB9iwp1aMeukoyiGtORRlqw41jAShqyyWB56/2Cg=="
+									},
+
+####################################################################################################################################################################################################################################################
+
+							#resource: identification -  worker node 0
+							"f980e79f6ac6d01e34a341f74fc088aa9e72b02ebee6a9fef39039390c1057be"			:	{
+										"data"		:	{
+													"identification"	:	"BLOCKMESHWORKERNODE0",
+													"commonName"		:	"BlockMesh Network Worker 0",
+													"company"			:	"BlockMesh",
+													"certificate"		:	"https://certs.blockmesh.info/w0",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	""
+									},
+
+							#resource: identification -  worker node 1
+							""			:	{
+										"data"		:	{
+													"identification"	:	"BLOCKMESHWORKERNODE1",
+													"commonName"		:	"BlockMesh Network Worker 1",
+													"company"			:	"BlockMesh",
+													"certificate"		:	"https://certs.blockmesh.info/w1",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	""
+									},
+
+							#resource: identification -  worker node 2
+							""			:	{
+										"data"		:	{
+													"identification"	:	"BLOCKMESHWORKERNODE2",
+													"commonName"		:	"BlockMesh Network Worker 2",
+													"company"			:	"BlockMesh",
+													"certificate"		:	"https://certs.blockmesh.info/w2",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	""
+									},
+
+							#resource: identification -  worker node 3
+							""			:	{
+										"data"		:	{
+													"identification"	:	"BLOCKMESHWORKERNODE3",
+													"commonName"		:	"BlockMesh Network Worker 3",
+													"company"			:	"BlockMesh",
+													"certificate"		:	"https://certs.blockmesh.info/w3",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	""
+									},
+
+							#resource: identification -  worker node 4
+							""			:	{
+										"data"		:	{
+													"identification"	:	"BLOCKMESHWORKERNODE4",
+													"commonName"		:	"BlockMesh Network Worker 4",
+													"company"			:	"BlockMesh",
+													"certificate"		:	"https://certs.blockmesh.info/w4",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	""
+									},
+
+							#resource: identification -  worker node 5
+							""			:	{
+										"data"		:	{
+													"identification"	:	"BLOCKMESHWORKERNODE5",
+													"commonName"		:	"BlockMesh Network Worker 5",
+													"company"			:	"BlockMesh",
+													"certificate"		:	"https://certs.blockmesh.info/w5",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	""
+									},
+
+####################################################################################################################################################################################################################################################
+
+							#resource: network -  worker node 0
+							"469402432173bb22428167c0eeb14040877aa576153406485f122a702d284d92"			:	{
+										"data"		:	{
+													"role"				:	"worker",
+													"id"				:	0,
+													"url"				:	"https://w0.blockmesh.info",
+													"identification"	:	"BLOCKMESHWORKERNODE0",
+													"publicKey"			:	"",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1,
+																"status"			:	"active"
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	""
+									},
+									
+							#resource: network -  worker node 1
+							""			:	{
+										"data"		:	{
+													"role"				:	"worker",
+													"id"				:	1,
+													"url"				:	"https://w1.blockmesh.info",
+													"identification"	:	"BLOCKMESHWORKERNODE1",
+													"publicKey"			:	"",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1,
+																"status"			:	"active"
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	""
+									},
+									
+							#resource: network -  worker node 2
+							""			:	{
+										"data"		:	{
+													"role"				:	"worker",
+													"id"				:	2,
+													"url"				:	"https://w2.blockmesh.info",
+													"identification"	:	"BLOCKMESHWORKERNODE2",
+													"publicKey"			:	"",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1,
+																"status"			:	"active"
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	""
+									},
+									
+							#resource: network -  worker node 3
+							""			:	{
+										"data"		:	{
+													"role"				:	"worker",
+													"id"				:	3,
+													"url"				:	"https://w3.blockmesh.info",
+													"identification"	:	"BLOCKMESHWORKERNODE3",
+													"publicKey"			:	"",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1,
+																"status"			:	"active"
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	""
+									},
+									
+							#resource: network -  worker node 4
+							""			:	{
+										"data"		:	{
+													"role"				:	"worker",
+													"id"				:	4,
+													"url"				:	"https://w4.blockmesh.info",
+													"identification"	:	"BLOCKMESHWORKERNODE4",
+													"publicKey"			:	"",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1,
+																"status"			:	"active"
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	""
+									},
+									
+							#resource: network -  worker node 5
+							""			:	{
+										"data"		:	{
+													"role"				:	"worker",
+													"id"				:	5,
+													"url"				:	"https://w5.blockmesh.info",
+													"identification"	:	"BLOCKMESHWORKERNODE5",
+													"publicKey"			:	"",
+													"meta":{
+																"entryType"			:	"creation",
+																"date"				:	"2016-01-01t00:00:00+00:00",
+																"version"			:	1,
+																"status"			:	"active"
+															}
+												},
+										"entity"	:	"BLOCKMESHCONTROLLER0",
+										"signature"	:	""
+									},
+						}
+}
