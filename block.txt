@@ -1,0 +1,11 @@
+the hash of the block is calculated by joining the previous block hash, timestamp and the header's content:
+{"previousBlockHash":"x64","date":0123456789,"header":{}}
+
+
+Smallest block:
+{"blockHash":"64x","previousBlocKHash":"64x","date":1234567890,"workerNode":0,"signature":"+188x","header":{},"data":{}}
+
+
+yearly blockchain cleaning:
+conserting with all parties to make a global state block, containing every final and essential data.
+not to substitute the previous blocks but to give an equivalent result, easier and smaller to keep and load.

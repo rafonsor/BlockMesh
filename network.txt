@@ -1,0 +1,27 @@
+BlockMesh - an universal blockchain backbone
+
+nodes should use 521r1 keys
+while clients should use 384r1
+
+
+start with 6 nodes publishing every 5minutes => turnover 30minutes
+then augment to 10 nodes publishing every 1minute => turnover 10minutes
+
+
+the blockchain will be relayed through API services and website,
+all of which using a cluster of replicated CassandraDBs
+
+
+for access to the nodes from the clients, the main website would have the url's: N#.website.com
+
+maybe in the long run, each entity of each ressource would get a certificate to authenticate himself to the nodes
+
+
+reserver ids starting with blockmesh for us
+
+UPDATES
+• allow multiple authorities in the future (=> support for "" and [] field)
+• take into account resources' status: each worker's db would keep a record [resource]:[active/inactive], and they would first check if a particular resource is active before verifying the resource.entity pair
+• limit block size or make it so a worker broadcasts the hash even before having completed the block creation
+  (or revert back to the simplified block idea)
+

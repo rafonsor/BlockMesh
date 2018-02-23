@@ -1,0 +1,22 @@
+these blockchains we're creating are all dumb blockchains:
+a tx is sent to the network, its signature is verified, contents are verified (enough balance,...),...
+
+however we should also turn to smart blockchains: made up of smart contracts
+those contracts are dynamically triggered by the network itself each time the conditions are met
+
+example of smart contracts:
+salaries: "every 1st of each month a transaction would be automatically made, discounting the salary of a worker and sending it directly to this worker"
+securities future: "if X happens then execute transaction T"
+
+that kind of blockchain needs a more than active network, where nodes are keeping tabs on previous contracts and acting uppon events
+they therefore need shared symbolic definitions and additionnal power
+
+
+We can extend the use of blockchain for, digital or physical, goods ownership:
+the blockchain would keep identities of people (which could be anonymous),
+records representing the goods with all the required identification and proof of ownership/existence,
+ownership records,
+ownership transfer requests,
+payment records
+
+should allow multiple owners and modes of shared ownership (for example, requiring only one,a majority or all owners to allow a transfer)
